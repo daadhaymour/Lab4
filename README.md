@@ -1,7 +1,7 @@
 # Project Overview 
--ENSF 381 lab 04
--Responsive Layouts practice.
--Flex Layouts practice.
+- ENSF 381 lab 04
+- Responsive Layouts practice.
+- Flex Layouts practice.
 
 ## Team Members 
 
