@@ -3,14 +3,14 @@
 -Responsive Layouts practice.
 -Flex Layouts practice.
 
-##Team Members 
+## Team Members 
 
 |    Name    |
 |------------| 
 |Daad Haymour|
 | Justin Wang|
 
-##Screenshots
+## Screenshots
 ### Exercise B
 ![Exercise B final output](./ExerciseB.gif)
 
