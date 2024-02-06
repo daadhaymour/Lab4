@@ -2,8 +2,8 @@
 =========================================================
 Name        : index.html
 Assignment  : Lab 4 Exercise B
-Author(s)   : Mahdi Ansari, William Arthur Philip Louis
-Submission  : May 21, 2030
+Author(s)   : Daad Haymour, Justin Wang
+Submission  : Feb 5, 2024
 Description : Responsive Layouts.
 =========================================================
 -->
@@ -18,10 +18,11 @@ Description : Responsive Layouts.
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- First, link the menu.css file here -->
+	<link rel="stylesheet" href="menu.css">
 
 	<style>	
 		/* Remove borders at the end, they have been add just for detecting positions of items*/	
-		div {
+		/* div {
 			border: 1px dashed gray;	
 		}
 		.row{ 
@@ -35,7 +36,7 @@ Description : Responsive Layouts.
 		}
 		.small {
 			border: 1px solid yellow;	
-		}		
+		}		 */
 	</style>
 
     <style>
@@ -46,37 +47,75 @@ Description : Responsive Layouts.
         .main { padding: 15px; margin-left: 150px;}		
         .footer { position: fixed; bottom: 0; width: 100%;}
         .news-item { padding: 10px; }
+		/* .gap {height: 50px; width: 10px; box-sizing: border-box ;} */
 		
 		.row { 
-			/*I need some CSS codes.*/		
+			display: block;
+			overflow: hidden;
+			/*I need some CSS codes.*/	
 		}
 
 		.large, .medium, .small {
+			box-sizing: border-box ;			
+			float: left;
 			/*I need some CSS codes.*/
 		}
-		
+
 		.gap {
+			display: block;
+			box-sizing: border-box ;
+			margin: 40px;
 			/*I need some CSS codes.*/
+			
 		}
 
 		@media screen and (min-width: 769px) {			
 			.large { 
+				width: 100%;
 				/*I need some CSS codes.*/
 			}
 			.medium { 
+				
+				width: 70%;
 				/*I need some CSS codes.*/
 			}
 			.small { 
+				
+				width: 30%;
 				/*I need some CSS codes.*/
-			 }
+			}
 		}
 
         @media screen and (max-width: 768px) {
-            /*I need some CSS codes.*/
+			
+			.large { 
+				width: 100%;
+				/*I need some CSS codes.*/
+			}
+			.medium { 
+				width: 60%;
+				/*I need some CSS codes.*/
+			}
+			.small { 
+				width: 40%;
+				/*I need some CSS codes.*/
+			}
         }
 
         @media screen and (max-width: 480px) {
 			/*I need some CSS codes.*/
+			.large { 
+				width: 100%;
+				/*I need some CSS codes.*/
+			}
+			.medium { 
+				width: 100%;
+				/*I need some CSS codes.*/
+			}
+			.small { 
+				width: 100%;
+				/*I need some CSS codes.*/
+			}
         }
 
         
