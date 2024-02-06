@@ -2,8 +2,8 @@
 =========================================================
 Name        : index.html
 Assignment  : Lab 4 Exercise C
-Author(s)   : Mahdi Ansari, William Arthur Philip Louis
-Submission  : May 21, 2030
+Author(s)   : Daad Haymour, Justin Wang
+Submission  : Feb 5, 2024
 Description : Flex Layouts.
 =========================================================
 -->
@@ -75,7 +75,7 @@ Description : Flex Layouts.
 		 }
         .header, .footer { background-color: #f2f2f2; text-align: center; padding: 10px; width: 100%;}
 		.body { 
-			flex: 1;
+			display: flex;
 			/*I need some CSS codes.*/
 		}
         .main { 
@@ -98,7 +98,10 @@ Description : Flex Layouts.
         
 
         @media screen and (min-width: 769px) {
-            .menu { width: 150px;}     
+            .menu { 
+				width: 150px;
+				display: block;
+			}     
 			.large { 
 				width: 100%;
 				flex: 1;
